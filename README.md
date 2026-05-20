@@ -1,73 +1,25 @@
-# React + TypeScript + Vite
+# 🇮🇳 India Matrix — National Intelligence & Analytics Platform (1947 — 2026)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**India Matrix** is a premium, high-fidelity data visualization and intelligence suite tracking India's transformation over 79 years of independence. Built with interactive timelines, geospatial mapping, policy simulators, and a dual-engine AI analytical module.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🦁 **National Branding & Logo**: Features the 4K-rendered metallic and crystal Ashoka Lions insignia, optimized for high zoom levels and visible across browser favicons, desktop menus, and mobile layouts.
+- 🎓 **Founding Fathers Tribute**: Dedicated showcase honoring the architects of modern India—with special focus on the institutional legacy and nation-building contributions of Pandit Jawaharlal Nehru.
+- 📋 **15 Prime Ministers' Detailed Report Cards**: Multi-dimensional grading across 18 leadership tenures measuring average GDP growth, exit GDP, inflation rates, policy milestones, and legacy notes.
+- 🗺️ **Geospatial & State Analytics Engine**: Map-based overlays tracking heavy industry corridors, spaceports, high-tech clusters, and dynamic state-level development indexes.
+- 🎲 **Interactive Matrix Quiz**: Gamified multi-tier testing module to challenge users on space records, economic reforms, and rural landmarks.
+- 🎛️ **Vision 2047 Policy Simulator**: Drag and balance governance sliders (infrastructure, energy, social indicators) to project growth paths for India's centenary of independence.
+- 🤖 **Dual-Engine AI Insights**: Powered by **Gemini 2.5 Flash** (Primary Key) and **Groq LLaMA 3.3** (Fallback) to generate conversational, humorous, and data-backed explanations of policy decisions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Setup & Local Execution
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Follow these quick commands to spin up the development workspace on your local machine:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Install dependencies**:
+   ```bash
+   npm install
