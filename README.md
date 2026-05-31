@@ -1,81 +1,40 @@
 # 🇮🇳 India Matrix — National Intelligence & Analytics Platform (1947 — 2026)
 
-**India Matrix** is a premium, high-fidelity data visualization and intelligence suite tracking India's transformation over 79 years of independence. Built with interactive timelines, geospatial mapping, policy simulators, and a dual-engine AI analytical module.
+**India Matrix** is a premium, high-fidelity interactive data visualization and intelligence suite tracking India's historic journey, economic indicators, infrastructural expansion, and governance records over 79 years of independence.
 
 ---
 
-## ✨ Features
+## 🌟 Interactive Modules & Features
 
-- 🦁 **National Branding & Logo**: Features the 4K-rendered metallic and crystal Ashoka Lions insignia, optimized for high zoom levels and visible across browser favicons, desktop menus, and mobile layouts.
-- 🎓 **Founding Fathers Tribute**: Dedicated showcase honoring the architects of modern India—with special focus on the institutional legacy and nation-building contributions of Pandit Jawaharlal Nehru.
-- 📋 **15 Prime Ministers' Detailed Report Cards**: Multi-dimensional grading across 18 leadership tenures measuring average GDP growth, exit GDP, inflation rates, policy milestones, and legacy notes.
-- 🗺️ **Geospatial & State Analytics Engine**: Map-based overlays tracking heavy industry corridors, spaceports, high-tech clusters, and dynamic state-level development indexes.
-- 🎲 **Interactive Matrix Quiz**: Gamified multi-tier testing module to challenge users on space records, economic reforms, and rural landmarks.
-- 🎛️ **Vision 2047 Policy Simulator**: Drag and balance governance sliders (infrastructure, energy, social indicators) to project growth paths for India's centenary of independence.
-- 🤖 **Dual-Engine AI Insights**: Powered by **Gemini 2.5 Flash** (Primary Key) and **Groq LLaMA 3.3** (Fallback) to generate conversational, humorous, and data-backed explanations of policy decisions.
+### 🦁 1. National Branding & Ashoka Lions Insignia
+*   **Insignia Design**: Features a high-definition rendered metallic and crystal Ashoka Lions emblem integrated seamlessly across the user interface.
+*   **Adaptive Theme Support**: The emblem dynamically transitions between high-contrast dark tones and light-contrast metallic glares depending on light/dark mode selections.
+*   **Touch Friendly UI**: Fully responsive navigation controls scaled and positioned for seamless single-handed navigation on smartphones, tablets, and desktops.
 
----
+### 👥 2. Prime Ministers' Performance Matrix & Side-by-Side Comparison
+*   **Comprehensive Scorecards**: Contains detailed reports for 15 Prime Ministers covering 18 leadership tenures starting from Pandit Jawaharlal Nehru up to the year 2026.
+*   **Detailed Historical Metrics**: Tracks exit GDP size, average inflation, average GDP growth, policy count, space and nuclear achievements, defense conflicts, literacy shifts, and land/agricultural reforms.
+*   **Side-by-Side Head-to-Head Comparison Card**: Pick any two Prime Ministers to run a direct comparison table complete with radar indicators, comparing policies, average growth rates, and structural economic shifts.
+*   **Credible Data Sourcing**: Features integrated source citations for major indicators linking to official registries of the Reserve Bank of India (RBI), Ministry of Statistics and Programme Implementation (MoSPI), and the World Bank WDI.
 
-## 🚀 Setup & Local Execution
+### 🗺️ 3. State-Level Analytics & Geospatial Engine
+*   **Geospatial Infrastructure Overlays**: Interactive Leaflet maps tracking ISRO spaceports, heavy industry steel mills, tech parks, the Golden Quadrilateral highway system, and bullet train corridors.
+*   **State Profiles & Deep Dive Inspector**: Tap any state on the map to slide open a detailed analytics panel containing:
+    *   **Per Capita Income**: Current annual averages (e.g., Maharashtra, Karnataka, Gujarat, Kerala).
+    *   **Human Development Index (HDI)**: Live progress charts matching the selected timeline slider year.
+    *   **Primary Industries**: Detailed listings of major regional sectors.
+    *   **Key Projects**: Ongoing and landmark state-level infrastructure projects.
+*   **Dynamic Responsive Layout**: Re-aligned control panel that shifts below the map on mobile viewports for clean navigation, with padded checkbox rows providing tactile active touch feedback.
 
-Follow these quick commands to spin up the development workspace on your local machine:
+### 🤖 4. Dual-Engine AI Insights
+*   **Gemini 2.5 Flash & LLaMA 3.3 Integration**: Server-side secure endpoints utilize Gemini (Primary) and LLaMA (Fallback) to generate conversational analysis on national policy changes.
+*   **Witty Persona**: The conversational assistant responds with witty observations about Indian bureaucracy, political structures, and culture, keeping data research highly engaging.
+*   **Automatic Data Formatting**: Generates clean comparisons, policy reviews, and markdown tables automatically rendered in a readable format.
 
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+### 🎲 5. Interactive Growth Matrix Quiz
+*   **Multi-Tier Historical Testing**: Test your knowledge on India's space missions, economic reforms, and landmark achievements.
+*   **Shareable Ranks**: Displays custom ranks upon completion (such as *Swaraj Samrat* or *Statist Scholar*) with direct share buttons for Twitter/X and LinkedIn.
 
-2. **Setup your environment variables**:
-   Create a file named `.env` in the root folder and add your API keys:
-   ```env
-   VITE_GEMINI_API_KEY=your_gemini_api_key_here
-   VITE_GROQ_API_KEY=your_groq_api_key_here
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**:
-   ```bash
-   npm run build
-   ```
-
----
-
-## 📁 Repository Upload Guide (GitHub Manual Upload)
-
-If you are uploading your files manually to GitHub, upload **only** the following folders and files:
-
-### ✅ Files & Folders to Upload
-- `src/` (Entire directory containing React code)
-- `public/` (Contains images, logo, and routing files)
-- `index.html` (Main entry page)
-- `package.json` & `package-lock.json`
-- `vite.config.ts`
-- `tailwind.config.js` & `postcss.config.js`
-- `eslint.config.js`
-- `tsconfig.json` (and `.app.json`, `.node.json` versions)
-- `.gitignore`
-- `README.md` (This file!)
-
-### ❌ Files & Folders to Ignore
-- `node_modules/` (Automatically managed by npm)
-- `dist/` (Local build assets)
-- `.env` (Contains your private, sensitive API keys)
-- `backend/venv/` & `backend/__pycache__/` (Python virtual environment and caching)
-
----
-
-## 🌐 Render.com Secure Deployment Configuration
-
-To ensure API keys remain hidden and secure, this application is deployed as a **Web Service** using the included `Dockerfile` (which builds the React frontend and serves it via the FastAPI backend):
-
-- **Service Type:** Web Service
-- **Runtime:** `Docker` (automatically detected from the root `Dockerfile`)
-- **Environment Variables** (under *Advanced Settings*):
-  - `GEMINI_API_KEY` = `your_gemini_api_key_here`
-  - `GROQ_API_KEY` = `your_groq_api_key_here`
-
-*Note: The FastAPI backend handles API calls securely on the server side and serves the React single-page application with fallback routing, preventing credential leakage to client browsers.*
+### 🎛️ 6. Vision 2047 Policy Simulator
+*   **Centenary Projections**: Adjust budget sliders (allocations for infrastructure, renewable energy, health, and education) to see real-time forecasts for India's growth at the centenary of independence.
+*   **Deep-Linked URL Exporter**: Instantly package your custom policy configuration into a shareable web link to copy to the clipboard.
