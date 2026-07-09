@@ -1,10 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=220&section=header&text=INDIA%20MATRIX&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=National+Intelligence+%26+Analytics+Platform+%281947+—+2026%29&descAlignY=55&descSize=20&descColor=ffffff&animation=fadeIn" />
+# 🇮🇳 INDIA MATRIX
+### National Intelligence & Analytics Platform (1947 — 2026)
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF9933&center=true&vCenter=true&width=750&lines=78+years+of+India.+One+platform.;Track+every+PM.+Every+state.+Every+milestone.;AI-powered+policy+analysis.;From+1947+to+2026+—+visualized." alt="Typing SVG" />
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF9933&center=true&vCenter=true&width=750&lines=78+years+of+India.+One+platform.;Track+every+PM.+Every+state.+Every+milestone.;AI-powered+policy+analysis.;From+1947+to+2026+%E2%80%94+visualized.)
 
 <br/><br/>
 
@@ -239,7 +238,7 @@ Adjust policy budget sliders — infrastructure, energy, health, education — a
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=120&section=footer&text=भारत+माता+की+जय+🇮🇳&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" />
+---
 
 <br/>
 
